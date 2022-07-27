@@ -1,0 +1,13 @@
+load("@rules_carbon//carbon:defs.bzl", "carbon_binary")
+
+carbon_binary(
+    name = "hello_world",
+    srcs = [
+        "hello_world.carbon",
+    ],
+    # Uncomment the setting below to see fancy parser output.
+    # This setting is also enabled by running with --compilation_mode=dbg.
+    # interpreter_flags = [
+    #     "--parser_debug",
+    # ]
+)

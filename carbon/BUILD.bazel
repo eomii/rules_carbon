@@ -1,0 +1,11 @@
+load("//carbon:toolchain.bzl", "carbon_toolchain")
+
+toolchain_type(name = "toolchain_type")
+
+carbon_toolchain(name = "poc_toolchain")
+
+toolchain(
+    name = "carbon_toolchain",
+    toolchain = ":poc_toolchain",
+    toolchain_type = ":toolchain_type",
+)

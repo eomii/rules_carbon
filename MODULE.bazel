@@ -1,0 +1,10 @@
+module(
+    name = "rules_carbon",
+    version = "20220727.0",
+    compatibility_level = 0,
+    toolchains_to_register = [
+        "@rules_carbon//carbon:carbon_toolchain",
+    ]
+)
+
+bazel_dep(name = "carbon", version = "0.0.0-2430c31")

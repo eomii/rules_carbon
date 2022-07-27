@@ -1,0 +1,4 @@
+bazel_dep(name = "rules_carbon", version = "20220727.0")
+
+# Uncomment this if runnning this example from a cloned rules_carbon repo.
+# local_path_override(module_name = "rules_carbon", path = "..")
