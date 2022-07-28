@@ -64,7 +64,7 @@ Copy the following lines into the just created ``.bazelrc`` file:
    build --experimental_exec_configuration_distinguisher=off
    run --experimental_exec_configuration_distinguisher=off
 
-You can now load the ``carbon_executable`` rule definition in your
+You can now load the ``carbon_binary`` rule definition in your
 ``BUILD.bazel`` files. For instance:
 
 .. code:: python
